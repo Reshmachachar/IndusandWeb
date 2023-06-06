@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 62.763 s <<< FAILURE! - in TestSuite
+TC01_ExplorePoduct(com.ind.testCases.IndusindTest)  Time elapsed: 19.572 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <span>...</span> is not clickable at point (294, 599). Other element would receive the click: <div class="overlay-navright" style="display: block;"></div>
+  (Session info: chrome=114.0.5735.110)
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fe74d5481633f6f57b0f04a3113b02e4, clickElement {id=8F3414A8CB18D944E2B754FCB7B25EF6_element_70}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\RESHMA\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55964}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55964/devtoo..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (fe74d5481633f6f57b0f04a3113b02e4)] -> xpath: (//*[contains(text(),'Two Wheelers')])[1]]
+Session ID: fe74d5481633f6f57b0f04a3113b02e4
+	at com.ind.testCases.IndusindTest.TC01_ExplorePoduct(IndusindTest.java:52)
+
+TC01_ExplorePoduct(com.ind.testCases.IndusindTestNegative)  Time elapsed: 21.978 s  <<< FAILURE!
+java.lang.AssertionError: Please Enter Valid Principle Value expected [false] but found [true]
+	at com.ind.testCases.IndusindTestNegative.TC01_ExplorePoduct(IndusindTestNegative.java:79)
+
